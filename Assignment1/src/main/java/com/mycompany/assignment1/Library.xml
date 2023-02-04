@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<library>
+    <location>First Floor</location>
+    <description>Historical Books</description>
+    <librarian>Mohamed Kamal</librarian>
+
+    <book id='firstBook'>
+        <title>Salah El-din</title>
+        <ISBN>978-3-16-148410-0</ISBN>
+        <author>Kamal</author>
+        <preface>This book is about the kingdom of Salah El-din in Egypt</preface>
+        <![CDATA[Welcom to my book]]>
+    </book>
+    <book id='secondBook'>
+        <title>Yousef Ben Tashavin</title>
+        <ISBN>976-1-18-145902-5</ISBN>
+        <author>Hany</author>
+        <preface>This book is about the kingdom of Andalus</preface>
+        <![CDATA[Welcom to my book]]>
+    </book>
+    <book id='thirdBook'>
+        <title>Seif EL-din Qutoz</title>
+        <ISBN>972-6-11-148352-3</ISBN>
+        <author>Ali</author>
+        <preface>This book is about the kingdom of El-Mamalik</preface>
+        <![CDATA[Welcom to my book]]>
+    </book>
+</library>

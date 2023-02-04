@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/emptyDTD.dtd to edit this template
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!ELEMENT library (location, description, librarian, book)>
+<!ELEMENT book (title, ISBN, author, preface)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT librarian (#PCDATA)>
+<!ELEMENT book (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST book id ID #REQUIRED>
+<!ATTLIST publisher bookID IDREF #REQUIRED>
