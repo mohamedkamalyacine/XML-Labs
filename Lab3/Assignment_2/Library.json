@@ -1,0 +1,31 @@
+{
+  "location": "First Floor",
+  "description": "Historical Books",
+  "librarian": "Mohamed Kamal",
+  "book": [
+    {
+      "@id": "firstBook",
+      "title": "Salah El-din",
+      "ISBN": "978-3-16-148410-0",
+      "author": "Kamal",
+      "preface": "This book is about the kingdom of Salah El-din in Egypt",
+      "#text": "Welcom to my book"
+    },
+    {
+      "@id": "secondBook",
+      "title": "Yousef Ben Tashavin",
+      "ISBN": "976-1-18-145902-5",
+      "author": "Hany",
+      "preface": "This book is about the kingdom of Andalus",
+      "#text": "Welcom to my book"
+    },
+    {
+      "@id": "thirdBook",
+      "title": "Seif EL-din Qutoz",
+      "ISBN": "972-6-11-148352-3",
+      "author": "Ali",
+      "preface": "This book is about the kingdom of El-Mamalik",
+      "#text": "Welcom to my book"
+    }
+  ]
+}
